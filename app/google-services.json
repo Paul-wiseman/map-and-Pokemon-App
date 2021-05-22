@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "636529533740",
+    "project_id": "mymap-project-a1e6d",
+    "storage_bucket": "mymap-project-a1e6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636529533740:android:49205397994cb189cc0289",
+        "android_client_info": {
+          "package_name": "com.decagon.android.sq007"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636529533740-fn5kdc1ikisebopnj8itv2ibp0inu800.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz8vaLCd0C5kJRD_cpD4zYAXE4Pe_f3-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636529533740-fn5kdc1ikisebopnj8itv2ibp0inu800.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

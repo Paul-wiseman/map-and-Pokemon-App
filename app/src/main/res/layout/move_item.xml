@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/progressBar_learn_at8"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="198dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="24dp"
+        android:scaleY="4"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_hydropump"
+        app:layout_constraintStart_toEndOf="@+id/tv_hydropump"
+        app:layout_constraintTop_toTopOf="@+id/tv_hydropump"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_learn_at11"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="198dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="24dp"
+        android:scaleY="4"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_confuion"
+        app:layout_constraintStart_toEndOf="@+id/tv_confuion"
+        app:layout_constraintTop_toTopOf="@+id/tv_confuion" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_learn_at10"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="198dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="32dp"
+        android:scaleY="4"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_psystrike"
+        app:layout_constraintStart_toEndOf="@+id/tv_psystrike"
+        app:layout_constraintTop_toTopOf="@+id/tv_psystrike"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_learn_at9"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="198dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="24dp"
+        android:scaleY="4"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_bulletpunch"
+        app:layout_constraintStart_toEndOf="@+id/tv_bulletpunch"
+        app:layout_constraintTop_toTopOf="@+id/tv_bulletpunch"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_learn_at"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="198dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="80dp"
+        android:scaleY="4"
+        android:outlineSpotShadowColor="@color/lightYellow"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_bugbite"
+        app:layout_constraintStart_toEndOf="@+id/tv_bugbite"
+        app:layout_constraintTop_toTopOf="@+id/tv_bugbite"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_learn_at4"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="198dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="36dp"
+        android:scaleY="4"
+        android:outlineSpotShadowColor="@color/purple_200"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_rockslid"
+        app:layout_constraintStart_toEndOf="@+id/tv_rockslid"
+        app:layout_constraintTop_toTopOf="@+id/tv_rockslid"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_learn_at7"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="198dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="24dp"
+        android:scaleY="4"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_shadowball"
+        app:layout_constraintStart_toEndOf="@+id/tv_shadowball"
+        app:layout_constraintTop_toTopOf="@+id/tv_shadowball"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_learn_at5"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="198dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="20dp"
+        android:scaleY="4"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_firefang"
+        app:layout_constraintStart_toEndOf="@+id/tv_firefang"
+        app:layout_constraintTop_toTopOf="@+id/tv_firefang" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_learn_at3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="198dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="36dp"
+        android:scaleY="4"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_smackdown"
+        app:layout_constraintStart_toEndOf="@+id/tv_smackdown"
+        app:layout_constraintTop_toTopOf="@+id/tv_smackdown" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_learn_at2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="198dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="80dp"
+        android:scaleY="4"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_firespin"
+        app:layout_constraintStart_toEndOf="@+id/tv_firespin"
+        app:layout_constraintTop_toBottomOf="@+id/tv_smackdown"
+        app:layout_constraintVertical_bias="0.84" />
+
+    <TextView
+        android:id="@+id/tv_hydropump"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/hydro_pump"
+        android:textStyle="bold"
+        android:fontFamily="@font/martel_bold"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_confuion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/confusion"
+        android:textStyle="bold"
+        android:fontFamily="@font/martel_bold"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_hydropump" />
+
+
+    <TextView
+        android:id="@+id/tv_psystrike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/psystrike"
+        android:textStyle="bold"
+        android:fontFamily="@font/martel_bold"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_confuion" />
+
+    <TextView
+        android:id="@+id/tv_bulletpunch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/bullet_punch"
+        android:textStyle="bold"
+        android:fontFamily="@font/martel_bold"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_psystrike" />
+    <TextView
+        android:id="@+id/tv_shadowball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/shadow_ball"
+        android:textStyle="bold"
+        android:fontFamily="@font/martel_bold"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_bulletpunch"/>
+    <TextView
+        android:id="@+id/tv_rockslid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/rock_slide"
+        android:textStyle="bold"
+        android:fontFamily="@font/martel_bold"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_shadowball"/>
+
+    <TextView
+        android:id="@+id/tv_bugbite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/bug_bite"
+        android:textStyle="bold"
+        android:fontFamily="@font/martel_bold"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_rockslid" />
+    <TextView
+        android:id="@+id/tv_firefang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/fire_fang"
+        android:textStyle="bold"
+        android:fontFamily="@font/martel_bold"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_bugbite"/>
+    <TextView
+        android:id="@+id/tv_smackdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/smack_down"
+        android:textStyle="bold"
+        android:fontFamily="@font/martel_bold"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_firefang"/>
+
+    <TextView
+        android:id="@+id/tv_firespin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/martel_bold"
+        android:textColor="@color/black"
+        android:text="@string/fire_spin"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_smackdown" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
